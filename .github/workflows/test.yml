@@ -1,6 +1,5 @@
-name: Run Calculator Tests
+name: Run Tests
 
-# Run on every push and pull request
 on:
   push:
   pull_request:
@@ -19,7 +18,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Run Jest tests
+      - name: Run tests
         run: npm test
