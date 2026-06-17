@@ -6,13 +6,15 @@
   "scripts": {
     "test": "npx jest",
     "test:watch": "jest --watchAll",
-    "test:coverage": "npx jest --coverage"
+    "test:coverage": "npx jest --coverage",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "husky": "^9.1.7",
     "jest": "^30.4.2"
   },
   "dependencies": {
