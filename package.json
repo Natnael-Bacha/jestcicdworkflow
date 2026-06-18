@@ -6,8 +6,7 @@
   "scripts": {
     "test": "npx jest",
     "test:watch": "jest --watchAll",
-    "test:coverage": "npx jest --coverage",
-    "prepare": "husky"
+    "test:coverage": "npx jest --coverage"
   },
   "keywords": [],
   "author": "",
